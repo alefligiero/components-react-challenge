@@ -1,0 +1,14 @@
+.dsc-comment-card {
+  background-color: var(--dsc-color-bg-primary);
+  border: 1px solid var(--dsc-color-card-border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 960px;
+  padding: 25px 20px;
+}
+
+.dsc-comment-card p {
+  color: var(--dsc-color-font-tertiary);
+  font-size: 16px;
+  font-weight: 400;
+}

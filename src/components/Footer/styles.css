@@ -1,0 +1,31 @@
+.dsc-footer {
+  height: 120px;
+  background-color: var(--dsc-color-bg-tertiary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.dsc-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 960px;
+}
+
+.dsc-footer-container p {
+    color: var(--dsc-color-font-secundary);
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .dsc-footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
